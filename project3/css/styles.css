@@ -58,6 +58,8 @@ footer {
     font-size: 1.75em;
 }
 
+/* Tablet Styles */
+
 @media(min-width: 760px) {
     #container {
         width: 80%;
@@ -72,6 +74,8 @@ footer {
         width: 50%;
     }
 }
+
+/* Desktop Styles */
 
 @media (min-width: 1024px) {
     #container {
