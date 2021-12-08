@@ -1,6 +1,8 @@
 /* Global Styles*/
 body {
     background-color: bisque;
+    font-family: 'Fuzzy Bubbles', cursive;
+
 }
 
 img {
@@ -27,6 +29,7 @@ header h1 {
     color: black;
     text-shadow: 2px 2px 2px lightcoral;
     text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 nav ul {
@@ -38,7 +41,7 @@ nav li {
     display: block;
 }
 
-nav li {
+nav li a {
     display: block;
     background-color:lightgoldenrodyellow;
     color:black;
@@ -47,7 +50,7 @@ nav li {
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
-    font-family: 'Alegreya SC', serif;
+    font-family: 'Pacifico', cursive;
     margin: 10px 0;
     border-radius: 10px;
 }
@@ -69,8 +72,8 @@ h2, h3 {
     color: black;
     text-shadow: blanchedalmond;
     font-size: 1.5em;
-    font-family: 'Kanit', sans-serif;
     text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
 }
 
 section img, aside img {
@@ -87,9 +90,9 @@ section img, aside img {
     text-align: center;
     text-decoration: none;
     font-size: 1.5em;
-    font-family: 'Kanit', sans-serif;
     margin: 10px auto;
     border-radius: 10px;
+    font-family: 'Pacifico', cursive; 
 }
 
 .button:hover {
@@ -131,7 +134,7 @@ table {
 
     header h1 {
         font-size: 3em;
-        font-family: 'Genos', sans-serif;
+        font-family: 'Pacifico', cursive;
     }
 
     nav {
