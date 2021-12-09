@@ -1,0 +1,231 @@
+/* Global Styles*/
+body {
+    background-color: pink;
+    font-family: 'Fuzzy Bubbles', cursive;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+/* Mobile Styles*/
+
+#container {
+    background-color: lightyellow;
+    margin: 10px;
+}
+
+header {
+    background-image: url('../images/FRIEND.png');
+    background-size: cover;
+    padding: 72px 0;
+}
+
+header h1 {
+    color: black;
+    text-shadow: 2px 2px 2px lightcoral;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color:lightgoldenrodyellow;
+    color:black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: 'Pacifico', cursive;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav li a:hover {
+    background-color: mistyrose;
+    text-shadow: 2px 2px 2px blueviolet;
+}
+
+nav, section, aside, .col, footer {
+    background-color: lightseagreen;
+    padding: 23px;
+    margin: 10px;
+    border: 4px solid lightslategrey;
+    border-radius: 10px;
+}
+
+h2, h3 {
+    color: black;
+    text-shadow: 2px 2px 2px pink;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+section img, aside img {
+    width: 60%;
+}
+
+.button {
+    display: block;
+    background-color: beige;
+    color: black;
+    height: 35px;
+    width: 170px;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-family: 'Pacifico', cursive; 
+}
+
+.button:hover {
+    background-color: darkgray;
+    text-shadow: 2px 2px 2px pink;
+}
+
+footer {
+    text-align: center;
+    color: darksalmon;
+}
+
+.single_col {
+    width: 83.5%;
+}
+
+audio, video {
+    display: block;
+    margin: 20px auto;
+    width: 75%;
+}
+
+.gallery.img {
+    border: 4px solid black;
+    border-radius: 10px;
+    margin: 10px auto;
+}
+
+table {
+    display: none;
+}
+
+/* Tablet Styles*/
+
+@media(min-width: 768px) {
+    header {
+        padding: 190px;
+    }
+
+    header h1 {
+        font-size: 3em;
+        font-family: 'Pacifico', cursive;
+    }
+
+    nav {
+        text-align: center;
+        padding: 5px;
+    }
+
+    nav li {
+        display: inline-block;
+    }
+
+    nav li a {
+        height: 50px;
+        line-height: 50px;
+        width: 200px;
+    }
+
+    #upper_flex {
+        display: flex;
+    }
+
+    section, aside {
+        width: 50%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    .col img {
+        width: 75%;
+        border-radius: 10px;
+        border: 4px solid black;
+     }
+
+    .single_col {
+        width: 83.5%;
+
+    }
+}
+
+
+/* Desktop Styles*/
+
+@media(min-width: 1024px) {
+    #container{
+        width: 75%;
+        margin: 20px auto;
+        border: 4px solid black;
+        border-radius: 20px;
+    }
+
+    header {
+        border-radius: 20px 20px 0 0;
+    }
+
+    nav li a {
+        margin: 0 20px;
+    }
+
+    #lower_flex {
+        display: flex;
+    }
+
+    .col{
+        width: 13.5%;
+    }
+
+    .col img {
+        width: 90%;
+    }
+
+    .single_col {
+        width: 100%;
+    }
+
+    table, tr, td {
+        border: 5px solid beige;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    table img {
+        width: 100%;
+    }
+
+    .gallery {
+        display: none;
+    }
+
+    table {
+        display: block;
+    }
+}
